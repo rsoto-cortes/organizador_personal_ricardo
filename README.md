@@ -38,3 +38,7 @@ En proceso de inclusion de nuevas funciones
 
 ## AUTOR
  RICARDO SOTO CORTES
+
+
+## Colaboracion
+ Jesus Adrian Garcia Moreno
