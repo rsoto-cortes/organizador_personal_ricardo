@@ -1,0 +1,29 @@
+1. ¿Cuál es la diferencia entre un repositorio local y uno remoto?
+El local es uno que yo puedo editar sin ningun problema y el remoto es uno que si se quiere subir cambios tiene que pasar primero por una rebivion antes de que se le aga un merge y asi ya sea parte del proyecto principal
+
+2. ¿Cuál es la diferencia entre commit y push?
+El commit solo lo prepara para poder subirlo y el push lo sube directamente a la nube en una rama 
+
+3. ¿Para qué sirve .gitignore?
+Para ocultar archivos que no queremos que se suba en Github
+
+4. ¿Por qué .venv no se almacena normalmente en GitHub?
+Para eviatr que se suban todas las dependencias que tiene el entorno virtual debido a que tiene muchos archivo que podrian causar problemas al realizar un clon en otra maquina
+
+5. ¿Para qué sirve requirements.txt?
+Para que la persona que haga un clon del proyecto sepa cuales son las bibliotecas y que version de estas mismas tienen que instalarse antes para que el proyecto sea funcional
+
+6. ¿Cuál es la diferencia entre fork y clone?
+El fork solo hace una copia en la nube y el clon hace la copia en la maquina local
+
+7. ¿Por qué conviene crear una rama antes de modificar el proyecto?
+Para evitar problemas en caso de que se allan causado prolemas en el codigo se quede en una rama secundaria en lugar de la principal
+
+8. ¿Qué función cumple un Pull Request?
+Permite al dueño del proyecto hacer una revision previa antes de aceptar los cambios que se hisieron en el codigo 
+
+9. ¿Qué se revisa antes de realizar un merge?
+Que el codigo sea coerente y que no cause ningun problema al agregarlo al proyecto principal
+
+10. ¿Por qué, después del merge en GitHub, se utiliza git pull en el repositorio local?
+Para poder descargar los cambios que se hicieron por parte de otros colaboradores para asi tener el proyecto ccompleto con todos los cambios realizados
